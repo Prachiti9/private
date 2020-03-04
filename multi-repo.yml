@@ -15,7 +15,7 @@ resources:
     name: Prachiti9/sources
     endpoint: p1
     ref: 'refs/heads/master'
-    trigger:
+    pr:
      branches:
       include:
        - master
