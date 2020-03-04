@@ -30,7 +30,7 @@ schedules:
   always: true
 
 pr:
-  branches:
+  branches: 
     include:
     - master
 
