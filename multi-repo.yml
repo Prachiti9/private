@@ -25,7 +25,7 @@ resources:
   - repository: scripts
     type: github
     name: Prachiti9/scripts
-    endpoint: p1
+    endpoint: p2
     ref: 'refs/heads/master'
 
 jobs:
