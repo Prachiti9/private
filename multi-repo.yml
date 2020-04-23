@@ -6,9 +6,6 @@
 trigger: 
 - master
 
-pr:
-- master
-
 resources:
   repositories:
   - repository: self
@@ -18,14 +15,14 @@ resources:
     name: Prachiti9/sources
     endpoint: p1
     ref: 'refs/heads/master'
-    pr:
+    trigger:
      branches:
       include:
        - master
   - repository: scripts
     type: github
     name: Prachiti9/scripts
-    endpoint: p2
+    endpoint: p1
     ref: 'refs/heads/master'
 
 jobs:
