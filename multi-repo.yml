@@ -35,3 +35,6 @@ jobs:
   - checkout: sources
     clean: true
     path: src
+  - checkout: scripts
+    clean: true
+    path: src
