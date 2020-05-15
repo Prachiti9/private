@@ -7,6 +7,7 @@ resources:
   repositories:
   - repository: self
     ref: 'refs/heads/master'
+    endpoint: Project
     trigger:
      branches:
       include:
@@ -14,7 +15,7 @@ resources:
   - repository: sources
     type: github
     name: Prachiti9/sources 
-    endpoint: p1
+    endpoint: Project
     ref: 'refs/heads/master'
     trigger:
      branches:
@@ -23,7 +24,7 @@ resources:
   - repository: scripts
     type: github
     name: Prachiti9/scripts
-    endpoint: p1
+    endpoint: Project
     ref: 'refs/heads/master'
 
 jobs:
