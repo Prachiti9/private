@@ -3,13 +3,14 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml 
 
-trigger: 
-- master 
-
 resources:
   repositories:
   - repository: self
     ref: 'refs/heads/master'
+    trigger:
+     branches:
+      include:
+       - master
   - repository: sources
     type: github
     name: Prachiti9/sources
