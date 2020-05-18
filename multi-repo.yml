@@ -15,7 +15,7 @@ resources:
   - repository: sources
     type: github
     name: Prachiti9/sources 
-    endpoint: Project
+    endpoint: p1
     ref: 'refs/heads/master'
     trigger:
      branches:
@@ -24,7 +24,7 @@ resources:
   - repository: scripts
     type: github
     name: Prachiti9/scripts
-    endpoint: Project
+    endpoint: p1
     ref: 'refs/heads/master'
 
 jobs:
