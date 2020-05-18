@@ -8,7 +8,7 @@ resources:
   - repository: self
     ref: 'refs/heads/master'
     endpoint: Project
-    trigger:
+    trigger: 
      branches:
       include:
        - master  
