@@ -5,13 +5,13 @@
 
 resources:
   repositories:
-  - repository: self
-    ref: 'refs/heads/master'
-    endpoint: Project
-    trigger: 
-     branches:
-      include:
-       - master  
+  # - repository: self
+  #   ref: 'refs/heads/master'
+  #   endpoint: Project
+  #   trigger: 
+  #    branches:
+  #     include:
+  #      - master  
   - repository: sources
     type: github
     name: Prachiti9/sources 
