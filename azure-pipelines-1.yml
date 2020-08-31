@@ -11,3 +11,10 @@ pool: default
 steps:
 - script: echo Hello, world!!
   displayName: 'Run a one-line script'
+
+schedules:
+  - cron: "0 0 * * *"
+    branches:
+      include:
+        - master
+    displayName: once everyday
