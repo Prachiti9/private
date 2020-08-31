@@ -6,15 +6,6 @@
 trigger:
 - master
 
-pool: default
-resources:
-  repositories:
-  - repository: self
-    type: github
-    name: Prachiti9/private 
-    endpoint: p1
-    ref: 'refs/heads/master'
-
 steps:
 - script: echo Hello, world!!
   displayName: 'Run a one-line script'
